@@ -22,7 +22,7 @@ Dosen Pengajar  	: Dr Ferry Astika Saputra ST, M.Sc
 
 **POLITEKNIK ELEKTRONIKA NEGERI SURABAYA (PENS)**
 
-**TAHUN 2024**
+**TAHUN 2025**
 
 FCFS scheduling with arrival time
 
