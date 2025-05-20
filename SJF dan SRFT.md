@@ -33,9 +33,9 @@ Dosen Pengajar  	: Dr Ferry Astika Saputra ST, M.Sc
 
 SJS Sceduling Without Arrival Time
 
-![](Aspose.Words.19b0f176-e228-4ba6-94fe-ad5c86a811b3.002.png)
+![Aspose Words 19b0f176-e228-4ba6-94fe-ad5c86a811b3 002](https://github.com/user-attachments/assets/b0171874-63d6-48ac-8eb7-4bf98f64204a)
 
-![](Aspose.Words.19b0f176-e228-4ba6-94fe-ad5c86a811b3.003.png)
+![Aspose Words 19b0f176-e228-4ba6-94fe-ad5c86a811b3 003](https://github.com/user-attachments/assets/f923cfdd-e375-4bdb-bc0e-84113c3cf79d)
 
 Penjelasan:
 
@@ -61,9 +61,9 @@ Algoritma SJF Non-Preemptive menghasilkan waktu tunggu dan turnaund time yang op
 
 SJF Scheduling Algorithms With Arrival Time
 
-![](Aspose.Words.19b0f176-e228-4ba6-94fe-ad5c86a811b3.004.png)
+![Aspose Words 19b0f176-e228-4ba6-94fe-ad5c86a811b3 004](https://github.com/user-attachments/assets/d42c9cdc-e6cc-4c97-a0e8-33cb25aadfde)
 
-![](Aspose.Words.19b0f176-e228-4ba6-94fe-ad5c86a811b3.005.png)
+![Aspose Words 19b0f176-e228-4ba6-94fe-ad5c86a811b3 005](https://github.com/user-attachments/assets/89c39ac4-d754-4d62-ae94-e4a2dccbe4ef)
 
 Penjelasan:
 
@@ -100,7 +100,8 @@ Penjelasan:
 
 SRTF Scheduling Algorithms
 
-![](Aspose.Words.19b0f176-e228-4ba6-94fe-ad5c86a811b3.006.png)
+![Aspose Words 19b0f176-e228-4ba6-94fe-ad5c86a811b3 006](https://github.com/user-attachments/assets/4070ffe2-dc63-41df-be10-1665b716a820)
+
 
 1. Data Awal
 
@@ -141,7 +142,7 @@ BT = lama eksekusi proses
 
 1. Diagram Gantt (ASCII)
 
-![](Aspose.Words.19b0f176-e228-4ba6-94fe-ad5c86a811b3.007.png)
+![Aspose Words 19b0f176-e228-4ba6-94fe-ad5c86a811b3 007](https://github.com/user-attachments/assets/42a70a3a-9b0d-43be-a8ed-b4648f7430da)
 
 - 0–2: P1
 - 2–5: P2
