@@ -198,8 +198,4 @@ BT = lama eksekusi proses
    Average Waiting Time (Rata-rata WT)\
    (4 + 0 + 6 + 1 + 2)/5 = 13/5 = 2,6
 
-   ### <a name="_twtjib4lvror"></a>**Catatan**
-- Idealnya pada **waktu 8** proses P5 (BT=2) memiliki **sisa waktu** lebih pendek daripada P1 (sisa=3), sehingga seharusnya P1 di-preempt dan P5 dijalankan terlebih dahulu. Namun hasil simulasi menunjukkan P1 tetap berjalan hingga selesai—mungkin karena implementasi hanya memeriksa preemption pada momen kedatangan terjadinya proses baru, bukan secara terus-menerus.
-- Jika dioptimalkan sepenuhnya, urutan setelah t=8 akan menjadi **P5 → P1**, yang akan menurunkan sedikit average waiting time.
-
 
