@@ -31,7 +31,7 @@ Dosen Pengajar  	: Dr Ferry Astika Saputra ST, M.Sc
 
 **TAHUN 2025**
 
-SJS Sceduling Without Arrival Time
+SJF Sceduling Without Arrival Time
 
 ![Aspose Words 19b0f176-e228-4ba6-94fe-ad5c86a811b3 002](https://github.com/user-attachments/assets/b0171874-63d6-48ac-8eb7-4bf98f64204a)
 
