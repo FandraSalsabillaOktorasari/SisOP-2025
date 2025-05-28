@@ -126,15 +126,15 @@ BT = lama eksekusi proses
 | :-: | :-: | :-: |
 |0|P1|Hanya P1 yang sudah hadir (AT=0).|
 |1|P1|P1 masih berjalan (sisa setelah 1 unit: 5).|
-|2|→ P2|P2 datang (AT=2, BT=3) < sisa P1 (5) → preempt P1, jalankan P2.|
+|2|→ P2|P2 datang (AT=2, BT=3) < sisa P1 (4) → preempt P1, jalankan P2.|
 |3|P2|P2 berjalan (sisa setelah 1 unit: 2).|
 |4|P2|P2 berjalan (sisa setelah 1 unit: 1). P4 datang (AT=4, BT=1) tapi P2 punya sisa 1 (sama).|
-|5|P2 → Selesai|P2 selesai pada t=5 (CT₂=5). Pilih proses terpendek sisa: P4 (BT=1) < sisa P1 (5).|
+|5|P2 → Selesai|P2 selesai pada t=5 (CT₂=5). Pilih proses terpendek sisa: P4 (BT=1) < sisa P1 (4).|
 |5–6|P4|Jalankan P4 selama 1 unit, selesai t=6 (CT₄=6).|
-|6|P3 datang|P3 hadir (AT=6, BT=9). Bandingkan sisa: P1 (5) < P3 (9) → jalankan P1.|
+|6|P3 datang|P3 hadir (AT=6, BT=9). Bandingkan sisa: P1 (4) < P3 (9) → jalankan P1.|
 |6–7|P1|P1 berjalan (sisa → 4).|
 |7–8|P1|P1 berjalan (sisa → 3).|
-|8|P5 datang|P5 hadir (AT=8, BT=2). Bandingkan sisa: P1 (3) > P5 (2) → seharusnya preempt, tapi sesuai simulasi, P1 tetap berjalan hingga selesai.|
+|8|P5 datang|P5 hadir (AT=8, BT=2). Bandingkan sisa: P1 (2) = P5 (2) → seharusnya preempt, tapi sesuai simulasi, P1 tetap berjalan hingga selesai.|
 |8–9|P1|P1 berjalan (sisa → 2).|
 |9–10|P1|P1 berjalan (sisa → 1 kemudian 0), selesai t=10 (CT₁=10).|
 |10–12|P5|Pilih P5 (BT=2), jalankan t=10–12, selesai CT₅=12.|
