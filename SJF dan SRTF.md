@@ -31,11 +31,11 @@ Dosen Pengajar  	: Dr Ferry Astika Saputra ST, M.Sc
 
 **TAHUN 2025**
 
-SJS Sceduling Without Arrival Time
+SJF Sceduling Without Arrival Time
 
 ![Aspose Words 19b0f176-e228-4ba6-94fe-ad5c86a811b3 002](https://github.com/user-attachments/assets/b0171874-63d6-48ac-8eb7-4bf98f64204a)
 
-![Aspose Words 19b0f176-e228-4ba6-94fe-ad5c86a811b3 003](https://github.com/user-attachments/assets/f923cfdd-e375-4bdb-bc0e-84113c3cf79d)
+![Aspose Words 19b0f176-e228-4ba6-94fe-ad5c86a811b3 003](IMG3.jpeg)
 
 Penjelasan:
 
@@ -126,17 +126,17 @@ BT = lama eksekusi proses
 | :-: | :-: | :-: |
 |0|P1|Hanya P1 yang sudah hadir (AT=0).|
 |1|P1|P1 masih berjalan (sisa setelah 1 unit: 5).|
-|2|→ P2|P2 datang (AT=2, BT=3) < sisa P1 (5) → preempt P1, jalankan P2.|
+|2|→ P2|P2 datang (AT=2, BT=3) < sisa P1 (4) → preempt P1, jalankan P2.|
 |3|P2|P2 berjalan (sisa setelah 1 unit: 2).|
 |4|P2|P2 berjalan (sisa setelah 1 unit: 1). P4 datang (AT=4, BT=1) tapi P2 punya sisa 1 (sama).|
-|5|P2 → Selesai|P2 selesai pada t=5 (CT₂=5). Pilih proses terpendek sisa: P4 (BT=1) < sisa P1 (5).|
+|5|P2 → Selesai|P2 selesai pada t=5 (CT₂=5). Pilih proses terpendek sisa: P4 (BT=1) < sisa P1 (4).|
 |5–6|P4|Jalankan P4 selama 1 unit, selesai t=6 (CT₄=6).|
-|6|P3 datang|P3 hadir (AT=6, BT=9). Bandingkan sisa: P1 (5) < P3 (9) → jalankan P1.|
-|6–7|P1|P1 berjalan (sisa → 4).|
-|7–8|P1|P1 berjalan (sisa → 3).|
-|8|P5 datang|P5 hadir (AT=8, BT=2). Bandingkan sisa: P1 (3) > P5 (2) → seharusnya preempt, tapi sesuai simulasi, P1 tetap berjalan hingga selesai.|
-|8–9|P1|P1 berjalan (sisa → 2).|
-|9–10|P1|P1 berjalan (sisa → 1 kemudian 0), selesai t=10 (CT₁=10).|
+|6|P3 datang|P3 hadir (AT=6, BT=9). Bandingkan sisa: P1 (4) < P3 (9) → jalankan P1.|
+|6–7|P1|P1 berjalan (sisa → 3).|
+|7–8|P1|P1 berjalan (sisa → 2).|
+|8|P5 datang|P5 hadir (AT=8, BT=2). Bandingkan sisa: P1 (1) < P5 (2), P1 tetap berjalan hingga selesai.|
+|8–9|P1|P1 berjalan (sisa → 1).|
+|9–10|P1|P1 berjalan (sisa → 0), selesai t=10 (CT₁=10).|
 |10–12|P5|Pilih P5 (BT=2), jalankan t=10–12, selesai CT₅=12.|
 |12–21|P3|Satu-satunya tersisa, P3 (BT=9), tuntas t=21 (CT₃=21).|
 
@@ -197,9 +197,5 @@ BT = lama eksekusi proses
 
    Average Waiting Time (Rata-rata WT)\
    (4 + 0 + 6 + 1 + 2)/5 = 13/5 = 2,6
-
-   ### <a name="_twtjib4lvror"></a>**Catatan**
-- Idealnya pada **waktu 8** proses P5 (BT=2) memiliki **sisa waktu** lebih pendek daripada P1 (sisa=3), sehingga seharusnya P1 di-preempt dan P5 dijalankan terlebih dahulu. Namun hasil simulasi menunjukkan P1 tetap berjalan hingga selesai—mungkin karena implementasi hanya memeriksa preemption pada momen kedatangan terjadinya proses baru, bukan secara terus-menerus.
-- Jika dioptimalkan sepenuhnya, urutan setelah t=8 akan menjadi **P5 → P1**, yang akan menurunkan sedikit average waiting time.
 
 
