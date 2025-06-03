@@ -31,7 +31,7 @@ Dosen Pengajar	: Dr Ferry Astika Saputra ST, M.Sc
 
 
 
-Link repository YouTube:
+Link YouTube:
 
 <https://youtu.be/ZcEoo6JTAPs?feature=shared>
-
+<https://youtu.be/JwpiXIzRSKY?si=__KXQFilP8BymRhq>
