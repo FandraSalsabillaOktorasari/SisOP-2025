@@ -33,5 +33,5 @@ Dosen Pengajar	: Dr Ferry Astika Saputra ST, M.Sc
 
 Link repository YouTube:
 
-<https://github.com/FandraSalsabillaOktorasari/SisOP-2025>
+<https://youtu.be/ZcEoo6JTAPs?feature=shared>
 
