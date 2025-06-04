@@ -1,6 +1,6 @@
 ﻿LAPORAN SISTEM OPERASI
 
-**TUGAS CHAPTER 4: PPT EVOLUSI TEKNILOGI PROCESSOR INTEL**
+**TUGAS CHAPTER 4: PPT EVOLUSI TEKNOLOGI PROCESSOR INTEL**
 
 
 
@@ -33,4 +33,4 @@ Dosen Pengajar	: Dr Ferry Astika Saputra ST, M.Sc
 
 Link PPT
 
-<https://drive.google.com/file/d/1iKh0yXDKJlDFV9ZzspXft99JuicdC5Cr/view?usp=drive_link> 
+<https://drive.google.com/file/d/17C_cht3LSpAGevjDnM1lvTSUUq__jvuI/view?usp=drive_link> 
